@@ -1,0 +1,33 @@
+.case {
+  width: 70px;
+  height: 50px;
+  background-color: pink;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.flexbox-a1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexbox-a2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flexbox-a3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexbox-b1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flexbox-b2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+}
