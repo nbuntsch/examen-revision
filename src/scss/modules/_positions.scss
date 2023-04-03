@@ -40,3 +40,34 @@
     position: relative;
   }
 }
+
+#position-c2 {
+  #father {
+    position: relative;
+  }
+
+  #son1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50%;
+    height: 100%;
+  }
+
+  #son2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  #father2 {
+    position: relative;
+    left: 100px;
+  }
+
+  #son3 {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+  }
+}
