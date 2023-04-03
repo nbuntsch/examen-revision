@@ -1,0 +1,33 @@
+#mediaqueries-c1 {
+  @media (min-width: 800px) {
+    .mobile-display {
+      display: none;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .desktop-display {
+      display: none;
+    }
+  }
+}
+
+#mediaqueries-c2 {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  @media (min-width: 800px) {
+    .box {
+      width: 50px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+}

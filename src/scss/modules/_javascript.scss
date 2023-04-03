@@ -1,0 +1,30 @@
+.js-trigger {
+  background-color: beige;
+  padding: 20px;
+  border: 1px black solid;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+
+.js-trigger.is-active {
+  background-color: darkblue;
+  color: white;
+}
+
+.js-target {
+  background-color: beige;
+  border: 1px black solid;
+  padding: 20px;
+  opacity: 0;
+}
+
+.js-target.is-active {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  opacity: 100;
+}
+
+.js-close {
+  display: flex;
+  justify-content: flex-end;
+}
