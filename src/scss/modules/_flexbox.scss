@@ -1,0 +1,9 @@
+.flex-container {
+  display: flex;
+}
+.flex-container > .flexbox_01 {
+  background-color: rgb(64, 64, 234);
+  padding: 30px 40px;
+  border: solid 1px black;
+  margin-left: 20%;
+}
