@@ -1,0 +1,44 @@
+#position-a1 {
+  .relative-element {
+    position: relative;
+    top: 12px;
+    left: 2px;
+  }
+
+  div {
+    background-color: #ffaa00;
+    border: solid black;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+#position-a2 {
+  .parent {
+    position: relative;
+    background-color: rgb(182, 145, 145);
+    border: solid black;
+    width: 90px;
+    height: 90px;
+  }
+
+  .frist-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    border: solid black;
+    width: 30px;
+    height: 30px;
+  }
+
+  .second-child {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background-color: red;
+    border: solid black;
+    width: 30px;
+    height: 30px;
+  }
+}
