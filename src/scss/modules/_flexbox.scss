@@ -54,11 +54,14 @@
 #flexbox-c3 {
   .container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    align-items: flex-start;
+    height: 200px;
   }
   .box {
     width: 40%;
+  }
+
+  .box-2 {
+    align-self: flex-end;
   }
 }
