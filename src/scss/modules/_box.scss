@@ -1,0 +1,19 @@
+.box {
+  display: flex;
+}
+
+.box div {
+  padding: 30px;
+  background-color: rgb(255, 193, 106);
+  border: solid;
+}
+
+.boxgreen div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  background-color: rgb(101, 186, 255);
+  border: solid;
+  aspect-ratio: 16/9;
+}

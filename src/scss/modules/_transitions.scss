@@ -1,0 +1,20 @@
+#transitions-c1 h3:hover .color {
+  width: 100%;
+  transition: all 1s cubic-bezier(0, 0.9, 1, 0.76);
+  z-index: -2;
+}
+
+#transitions-c1 h3 {
+  position: relative;
+  font-size: 25px;
+  display: inline-block;
+  margin: 0;
+}
+
+#transitions-c1 .color {
+  position: absolute;
+  background-color: rgb(232, 0, 147);
+  bottom: 0;
+  height: 100%;
+  width: 0%;
+}

@@ -1,0 +1,56 @@
+#position-c1 {
+  position: relative;
+}
+
+#position-c1 .p-c1-b {
+  position: relative;
+  top: 35px;
+  left: 30px;
+}
+
+#position-c1 .p-c1-a {
+  position: relative;
+  left: 50px;
+}
+
+#position-c1 .p-c1-a1 {
+  position: absolute;
+  width: 120px;
+  height: 20px;
+  bottom: 0px;
+}
+
+#position-c2 {
+  position: relative;
+}
+
+#position-c2 .p-c2-b {
+  position: relative;
+  left: 60px;
+}
+
+#position-c2 .p-c2-b1 {
+  width: 60px;
+  height: 40px;
+  position: relative;
+  bottom: -30px;
+  left: 40px;
+}
+
+.p-c2-a {
+  position: relative;
+}
+
+#position-c2 .p-c2-a1 {
+  position: absolute;
+  width: 60px;
+  height: 67px;
+  left: -1px;
+}
+
+#position-c2 .p-c2-a2 {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  bottom: -2px;
+}
