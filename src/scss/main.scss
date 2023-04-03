@@ -1,3 +1,150 @@
-@import 'base';
-@import 'layout';
-@import 'modules/example';
+@import "base";
+@import "layout";
+@import "modules/example";
+@import "bootstrap/scss/bootstrap-grid";
+
+#flexbox-a1 {
+  .child {
+    background: pink;
+    padding: 30px;
+    border: solid;
+  }
+
+  .parent {
+    display: flex;
+  }
+}
+
+#flexbox-a2 {
+  .child {
+    background: pink;
+    padding: 30px;
+    border: solid;
+  }
+
+  .parent {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+#flexbox-a3 {
+  .child {
+    background: pink;
+    padding: 30px;
+    border: solid;
+  }
+
+  .parent {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+.relative-element {
+  background: pink;
+  padding: 30px;
+  border: solid;
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+
+.element {
+  background: pink;
+  padding: 30px;
+  border: solid;
+}
+
+.parent {
+  position: relative;
+  text-align: center;
+  background: pink;
+  padding: 30px;
+  border: solid;
+}
+
+.child-1 {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  background: rgb(255, 247, 0);
+  padding: 10px;
+  border: solid;
+}
+
+.child-2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgb(255, 247, 0);
+  padding: 10px;
+  border: solid;
+}
+
+.button {
+  transition: color 0.5s 0.2s ease-in-out;
+  color: rgb(255, 0, 225);
+  transition: transform 0.2s;
+}
+
+.button:hover {
+  color: rgb(123, 0, 255);
+  transform: translateX(20px);
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 36px;
+  }
+}
+
+.different {
+  h3 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  @media (min-width: 768px) {
+    h3 {
+      font-size: 26px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    h3 {
+      font-size: 36px;
+    }
+  }
+}
