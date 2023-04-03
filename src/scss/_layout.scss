@@ -21,3 +21,173 @@
 .l-col-6:first-child .l-exercice {
   padding: 0;
 }
+
+.box {
+  border: black solid 1px;
+  font-size: 20px;
+  padding: 20px 42px;
+  background-color: blue;
+}
+
+.flexbox-b1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flexbox-b2 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flexbox-b3 .box {
+  width: 50%;
+}
+
+.flexbox-b3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col-sm {
+  width: 50%;
+}
+
+.position-c1 .box2 {
+  border: black solid 1px;
+  font-size: 20px;
+  padding: 40px 20px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  background-color: orangered;
+}
+
+.box3 {
+  border: black solid 1px;
+  font-size: 20px;
+  padding: 40px 20px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: orangered;
+}
+
+.positionB {
+  position: relative;
+  left: 40px;
+  bottom: 30px;
+}
+
+.positionA {
+  position: relative;
+  left: 60px;
+}
+
+.position-c1 .fixed-element {
+  position: absolute;
+  bottom: 0;
+  background-color: orange;
+  opacity: 70%;
+  height: 50px;
+}
+
+.boxA {
+  position: relative;
+  left: 100px;
+  margin-bottom: 50px;
+}
+
+.box4 {
+  border: black solid 1px;
+  font-size: 20px;
+  padding: 20px 20px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: yellow;
+}
+
+.position-b2 .parentA {
+  position: relative;
+}
+
+.position-b2 .childB {
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+}
+
+.position-b2 .childC {
+  position: absolute;
+  left: 80px;
+  top: 70px;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+.mediaqueries-a1 {
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 16px;
+      font-weight: 300;
+      padding-bottom: 0px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 20px;
+      font-weight: 300;
+      padding-bottom: 0px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+.mediaqueries-a2 {
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 16px;
+      font-weight: 300;
+      padding-bottom: 0px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    background-color: lightblue;
+    h1 {
+      font-size: 25px;
+      font-weight: 700;
+      text-decoration: underline;
+      padding-bottom: 0px;
+    }
+    p {
+      font-size: 12px;
+      padding-bottom: 0px;
+    }
+  }
+}
