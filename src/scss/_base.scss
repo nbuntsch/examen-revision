@@ -36,6 +36,171 @@ video {
 h1 {
   padding: 1em 0;
 }
+
+.box {
+  padding: 20px 40px;
+  background-color: lightseagreen;
+  border: solid 1px black;
+}
+
+.box2 {
+  padding: 20px 130px;
+  background-color: lightseagreen;
+  border: solid 1px black;
+}
+
+.box-selected {
+  padding: 20px 40px;
+  background-color: lightseagreen;
+  border: solid 1px black;
+  margin-bottom: 135px;
+}
+
+.flexbox-a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexbox-b {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexbox-c1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.flexbox-c2 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.box-position1 {
+  position: relative;
+  background-color: rgb(229, 109, 62);
+  padding: 40px;
+  text-align: center;
+  border: solid 1px black;
+}
+
+.box-position2 {
+  position: absolute;
+  background-color: orange;
+  padding: 10px;
+  border: solid 1px black;
+}
+
+.box-position3 {
+  position: relative;
+  background-color: rgb(229, 109, 62);
+  padding: 40px;
+  margin: 0px 230px;
+  text-align: center;
+  border: solid 1px black;
+}
+
+.position-1 {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+}
+
+.position-2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.position-3 {
+  bottom: 10px;
+  right: 10px;
+}
+
+.position-4 {
+  bottom: -20px;
+  right: -20px;
+}
+
+.b1 {
+  position: relative;
+}
+
+.position-5 {
+  position: absolute;
+  right: 20px;
+}
+
+.position-6 {
+  position: absolute;
+  right: 40px;
+  top: 80px;
+}
+
+.position-7 {
+  position: absolute;
+  top: 200px;
+  left: -70px;
+}
+
+.media1 {
+  font-size: 30px;
+}
+
+.media-hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .media1 {
+    font-size: 20px;
+    display: none;
+  }
+
+  .media-hidden {
+    display: block;
+  }
+}
+
+.media-box {
+  background-color: aqua;
+  padding: 20px;
+  border: solid 1px black;
+}
+
+.mediac2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+@media (max-width: 760px) {
+  .mediac2 {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.transi1 {
+  max-width: 40px;
+  color: red;
+  transition: color 0.2s 0.1s ease-in-out;
+  transition: background 0.2s 0.1s ease-in-out;
+}
+
+.transi1:hover {
+  background: purple;
+}
+
+.text-change:hover {
+  color: white;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
