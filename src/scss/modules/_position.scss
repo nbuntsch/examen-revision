@@ -1,0 +1,70 @@
+.p-big-box {
+  background-color: rgb(229, 98, 23);
+  border: solid 1px black;
+  padding: 40px 40px;
+  margin: 0 360px 0 0;
+  text-align: center;
+}
+
+.p-little-box-c1 {
+  background-color: rgba(255, 236, 69, 0.324);
+  border: solid 1px black;
+  padding: 10px 90px;
+  text-align: center;
+}
+
+.p-box-c1-a {
+  position: relative;
+  left: 100px;
+}
+
+.p-box-c1-a1 {
+  position: absolute;
+  top: 58px;
+  left: 0px;
+}
+
+.p-box-c1-b {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+/*Exercice 2*/
+
+.p-little-box-c2 {
+  background-color: rgba(255, 236, 69, 0.324);
+  border: solid 1px black;
+}
+
+.p-box-c2-a {
+  position: relative;
+}
+
+.p-box-c2-a1 {
+  position: absolute;
+  padding: 40px 45px;
+  left: 1px;
+  top: 0px;
+}
+
+.p-box-c2-a2 {
+  position: absolute;
+  padding: 10px 90px;
+  text-align: center;
+  left: 1px;
+}
+
+.p-box-c2-b {
+  position: relative;
+  left: 100px;
+}
+
+.p-box-c2-B1 {
+  background-color: rgb(255, 236, 69);
+  border: solid 1px black;
+  padding: 8px 25px;
+  position: absolute;
+  bottom: -20px;
+  left: 145px;
+}
