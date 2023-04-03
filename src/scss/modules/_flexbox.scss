@@ -1,0 +1,35 @@
+#flexbox-a3 .box,
+#flexbox-b3 .box,
+#flexbox-c1 .box {
+  background: cornflowerblue;
+  padding: 15px;
+  border: 1px solid black;
+  font-size: 15px;
+}
+
+#flexbox-b3 .box,
+#flexbox-c3 .box {
+  width: 185px;
+}
+
+#flexbox-a3 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#flexbox-b3 .container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#flexbox-c1 .container {
+  flex-flow: wrap;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

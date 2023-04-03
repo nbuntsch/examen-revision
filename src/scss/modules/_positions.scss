@@ -1,0 +1,74 @@
+.parent .box {
+  background: orangered;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.child.box {
+  background: orange;
+}
+
+#position-c1 {
+  .box-a,
+  .box-b,
+  .box-c {
+    position: relative;
+    width: calc(100% / 3);
+    height: 80px;
+  }
+  .box-a1 {
+    opacity: 50%;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+  }
+  .box-a {
+    left: 15%;
+  }
+  .box-b {
+    left: 7%;
+    top: 30px;
+    z-index: 1;
+  }
+}
+
+#position-c2 {
+  .box-a,
+  .box-b,
+  .box-c {
+    position: relative;
+    width: calc(100% / 3);
+    height: 80px;
+  }
+  .box-a1,
+  .box-a2 {
+    opacity: 50%;
+    position: absolute;
+  }
+  .box-a1 {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .box-a2 {
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+  }
+
+  .box-b1 {
+    position: absolute;
+    background: bisque;
+    width: 50%;
+    bottom: -30%;
+    right: -30%;
+  }
+  .box-b {
+    left: 16%;
+    z-index: 1;
+  }
+}
