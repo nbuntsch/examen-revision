@@ -1,0 +1,39 @@
+#flexbox-c1,
+#flexbox-c2,
+#flexbox-c3 {
+  .box {
+    background-color: rgb(86, 159, 233);
+    padding: 15px 35px;
+    border: black 1px solid;
+  }
+}
+
+#flexbox-c1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 85%;
+}
+
+#flexbox-c2 {
+  .box {
+    width: 35%;
+    padding-bottom: 50px;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+#flexbox-c3 {
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+  .push {
+    margin-top: 20%;
+  }
+  display: flex;
+  flex-direction: row;
+}

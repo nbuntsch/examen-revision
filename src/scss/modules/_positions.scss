@@ -1,0 +1,65 @@
+#position-c1,
+#position-c2 {
+  .box {
+    background-color: rgb(225, 87, 12);
+    padding: 30px;
+    border: black 1px solid;
+    width: 180px;
+    height: 90px;
+    text-align: center;
+  }
+
+  .box-2 {
+    background-color: rgba(225, 204, 12, 0.332);
+    height: 50%;
+    border: black 1px solid;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+#position-c1 {
+  .box-A {
+    position: relative;
+    transform: translate(50%, 0);
+  }
+  .box-B {
+    position: relative;
+    transform: translate(25%, 50%);
+  }
+  .box-A1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+#position-c2 {
+  .box-A {
+    position: relative;
+  }
+  .box-A1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+  }
+  .box-A2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .box-B {
+    position: relative;
+    transform: translate(50%, 0);
+  }
+  .box-B1 {
+    position: absolute;
+    width: 40%;
+    background-color: rgb(225, 204, 12);
+    transform: translate(50%, 0);
+    bottom: -25%;
+    left: 50%;
+  }
+}
