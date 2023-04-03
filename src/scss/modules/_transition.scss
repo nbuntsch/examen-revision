@@ -1,0 +1,25 @@
+#transitions-c1 {
+  span {
+    font-size: 2rem;
+    position: relative;
+    color: black;
+    transition: 0.3s;
+    user-select: none;
+    cursor: pointer;
+    &::before {
+      content: "";
+      height: 100%;
+      width: 0%;
+      background-color: rgb(239, 111, 162);
+      position: absolute;
+      z-index: -1;
+      transition: 0.3s;
+    }
+    &:hover {
+      color: rgb(93, 31, 225);
+      &::before {
+        width: 100%;
+      }
+    }
+  }
+}
