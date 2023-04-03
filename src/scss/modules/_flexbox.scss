@@ -1,9 +1,21 @@
 .flex-container {
   display: flex;
 }
-.flex-container > .flexbox_01 {
+.flex-container > .flexbox_03 {
   background-color: rgb(64, 64, 234);
   padding: 30px 40px;
   border: solid 1px black;
   margin-left: 20%;
+}
+
+.flexbox-a1 {
+  background-color: purple;
+  padding: 30px 30px;
+  border: 1px solid rgb(0, 0, 69);
+}
+.flexbox-a2 {
+  background-color: purple;
+  padding: 30px 30px;
+  border: 1px solid rgb(0, 0, 69);
+  justify-items: flex-end;
 }

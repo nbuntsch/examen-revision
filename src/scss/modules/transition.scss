@@ -1,0 +1,31 @@
+.transa {
+  background-color: white;
+  color: rgb(247, 92, 118);
+  font-size: 30px;
+}
+.transa:hover {
+  width: 15%;
+  background-color: rgb(85, 26, 223);
+  color: rgb(232, 53, 82);
+  transition: 1s;
+}
+.world {
+  color: rgb(247, 92, 118);
+}
+.world:hover {
+  color: white;
+  transition: 1s;
+}
+
+.transc {
+  background-color: white;
+  width: 1%;
+  color: rgb(247, 92, 118);
+  font-size: 30px;
+}
+.transc:hover {
+  width: 20%;
+  background-color: rgb(85, 26, 223);
+  color: rgb(232, 53, 82);
+  transition: 1s;
+}
