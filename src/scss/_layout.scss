@@ -139,3 +139,55 @@
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+
+.mediaqueries-a1 {
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 16px;
+      font-weight: 300;
+      padding-bottom: 0px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 20px;
+      font-weight: 300;
+      padding-bottom: 0px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+.mediaqueries-a2 {
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 16px;
+      font-weight: 300;
+      padding-bottom: 0px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    background-color: lightblue;
+    h1 {
+      font-size: 25px;
+      font-weight: 700;
+      text-decoration: underline;
+      padding-bottom: 0px;
+    }
+    p {
+      font-size: 12px;
+      padding-bottom: 0px;
+    }
+  }
+}
