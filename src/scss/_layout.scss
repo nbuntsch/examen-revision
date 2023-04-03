@@ -22,9 +22,25 @@
   padding: 0;
 }
 
-.flexbox-c1 {
+.box {
+  border: black solid 1px;
+  font-size: 20px;
+  padding: 20px 42px;
+  background-color: blue;
+}
+
+.flexbox-b1 {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flexbox-b2 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .row + .row {
