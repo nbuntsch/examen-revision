@@ -21,3 +21,53 @@
 .l-col-6:first-child .l-exercice {
   padding: 0;
 }
+
+.box-1 {
+  background-color: rgb(88, 169, 227);
+  padding: 20px 40px 20px 40px;
+  border: 1px solid rgb(29, 38, 87);
+}
+
+.box-2 {
+  background-color: rgb(88, 169, 227);
+  padding: 20px 120px 55px 60px;
+  border: 1px solid rgb(29, 38, 87);
+}
+
+.box-3 {
+  background-color: rgb(88, 169, 227);
+  padding: 20px 90px 20px 40px;
+  border: 1px solid rgb(29, 38, 87);
+}
+
+.box-4 {
+  background-color: rgb(255, 78, 29);
+  padding: 40px 110px 40px 60px;
+  border: 1px solid rgb(33, 11, 11);
+}
+
+.box-5 {
+  background-color: rgb(255, 144, 59);
+  padding: 20px 105px 19px 60px;
+  border: 1px solid rgb(33, 11, 11);
+  opacity: 90%;
+}
+
+.box-6 {
+  background-color: rgb(59, 216, 255);
+  padding: 20px 105px 19px 60px;
+  border: 1px solid rgba(4, 0, 255, 0.417);
+  opacity: 90%;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
