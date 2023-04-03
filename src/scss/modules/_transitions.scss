@@ -1,7 +1,11 @@
 .transition-1 {
-  color: purple;
+  color: rgb(0, 0, 0);
+  transition: 0.5s ease-out;
 }
 
 .transition-1:hover {
+  cursor: pointer;
+  color: purple;
   background-color: rgb(255, 68, 99);
+  transform: opacity;
 }
