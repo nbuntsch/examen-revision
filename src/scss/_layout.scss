@@ -57,6 +57,30 @@
   width: 50%;
 }
 
+.position-c1 .box2 {
+  border: black solid 1px;
+  font-size: 20px;
+  padding: 40px 20px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  background-color: orangered;
+}
+
+.position-c1 .fixed-element {
+  position: absolute;
+  bottom: 0;
+  background-color: orange;
+  opacity: 70%;
+  height: 50px;
+}
+
+.boxA {
+  position: relative;
+  left: 100px;
+  margin-bottom: 50px;
+}
+
 .row + .row {
   margin-top: 16px;
 }
