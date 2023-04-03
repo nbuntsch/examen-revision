@@ -1,0 +1,94 @@
+.element {
+  background-color: red;
+  color: white;
+  padding: 29px 100px;
+  border: 1px black;
+  width: 25px;
+}
+.element-relative1 {
+  background-color: rgb(192, 10, 10);
+  color: white;
+  padding: 25px 100px;
+  border: 1px rgb(0, 0, 0) solid;
+  width: 25px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.element-parent1 {
+  background-color: red;
+  border: solid 1px black;
+  color: white;
+  width: 95%;
+  height: 90px;
+  padding: 5%;
+  margin: 7px;
+}
+.enfant1 {
+  background-color: yellowgreen;
+  border: solid 1px black;
+  padding-left: 10px;
+  width: 5%;
+  position: relative;
+  top: -50px;
+  left: 85%;
+}
+.enfant2 {
+  background-color: yellowgreen;
+  border: solid 1px black;
+  padding-left: 10px;
+  width: 5%;
+  position: relative;
+  top: -119px;
+  left: 7;
+}
+
+.enfantb1 {
+  border: 2px solid black;
+  background-color: red;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  position: relative;
+  left: 100px;
+}
+.enfantb2 {
+  border: 2px solid black;
+  background-color: red;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  position: relative;
+  left: 10%;
+  top: -30px;
+}
+.enfantb3 {
+  border: 2px solid black;
+  background-color: red;
+  width: 80px;
+  height: 80px;
+}
+.enfantb4 {
+  border: 2px solid black;
+  background-color: red;
+  width: 80px;
+  height: 80px;
+}
+.enfantb5 {
+  border: 2px solid black;
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: -50px;
+  left: 30px;
+}
+.enfantb6 {
+  border: 2px solid black;
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: -60px;
+  left: 60px;
+}

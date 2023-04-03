@@ -1,0 +1,36 @@
+@media only screen and (max-width: 760px) {
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 0px;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  h4 {
+    font-size: 0px;
+  }
+  h5 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .cube {
+    width: 100%;
+    background-color: rgb(84, 84, 226);
+    border: 1px solid black;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .cube {
+    width: 10%;
+    background-color: rgb(74, 74, 250);
+    border: 1px solid black;
+    height: 40px;
+    margin: 10px;
+    flex-direction: row-reverse;
+  }
+}
