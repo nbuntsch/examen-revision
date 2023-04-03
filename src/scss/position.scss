@@ -1,0 +1,18 @@
+.element {
+  width: 550px;
+  height: 100px;
+  background-color: orange;
+  border: solid black 1px;
+  text-align: center;
+}
+
+.relative-element {
+  position: relative;
+  bottom: -30px;
+  left: 10px;
+}
+
+.absolute-element {
+  position: absolute;
+  background-color: yellow;
+}

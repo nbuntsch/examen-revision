@@ -1,0 +1,20 @@
+.media-queries-a1 h1 {
+  font-size: 20px;
+}
+
+@media (min-width: 992px) {
+  .media-queries-a1 h1 {
+    font-size: 50px;
+  }
+}
+
+.media-queries-a2 h2 {
+  font-size: 15px;
+  background-color: blue($color: #000000);
+}
+
+@media (min-width: 992px) {
+  .media-queries-a2 h1 {
+    font-size: 50px;
+  }
+}
