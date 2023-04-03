@@ -53,6 +53,10 @@
   flex-wrap: wrap;
 }
 
+.col-sm {
+  width: 50%;
+}
+
 .row + .row {
   margin-top: 16px;
 }
