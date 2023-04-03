@@ -1,0 +1,29 @@
+#transitions-c1 {
+  div {
+    z-index: 1;
+    position: relative;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    color: black;
+  }
+
+  span {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    background-color: red;
+    width: 0px;
+    height: 20px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+  }
+
+  div:hover {
+    color: blue;
+
+    span {
+      width: 80px;
+    }
+  }
+}
