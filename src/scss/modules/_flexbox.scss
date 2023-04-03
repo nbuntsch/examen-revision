@@ -65,9 +65,8 @@
 
 #flexbox-c3 {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  padding: 0 0 100px 0;
+  padding: 20px 20px 100px 20px;
 }
 
 .f-c3-box {
@@ -75,8 +74,8 @@
   text-align: left;
 }
 
-.f-c3-box-c {
-  display: flex;
-  justify-content: flex-start;
+#f-c3-box-c {
+  align-self: flex-end;
 }
+
 */
