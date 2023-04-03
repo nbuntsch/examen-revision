@@ -1,0 +1,101 @@
+#mediaqueries-a1 {
+  .bigText {
+    font-size: 30px;
+
+    @media (min-width: 770px) {
+      font-size: 35px;
+    }
+  }
+
+  .smallText {
+    font-size: 12px;
+
+    @media (min-width: 770px) {
+      font-size: 25px;
+    }
+  }
+}
+
+#mediaqueries-a2 {
+  .bigText02 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+
+    @media (min-width: 770px) {
+      text-decoration: underline;
+      font-weight: 700;
+      font-size: 35px;
+    }
+  }
+
+  .smallText02 {
+    font-size: 12px;
+
+    @media (min-width: 770px) {
+      font-size: 25px;
+    }
+  }
+  .bg01 {
+    background-color: white;
+
+    @media (min-width: 770px) {
+      background-color: aqua;
+    }
+  }
+}
+
+#mediaqueries-b1 {
+  .underlinedText {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+
+    @media (min-width: 770px) {
+      text-decoration: underline;
+      font-weight: 700;
+      font-size: 35px;
+    }
+  }
+
+  .movingText {
+    font-size: 12px;
+    margin-left: 0;
+
+    @media (min-width: 770px) {
+      font-size: 25px;
+      margin-left: 10px;
+    }
+  }
+}
+
+#mediaqueries-b2 {
+  .unchangingText {
+    font-size: 30px;
+
+    @media (min-width: 770px) {
+      font-size: 35px;
+    }
+  }
+
+  .changingText {
+    font-size: 30px;
+    visibility: visible;
+
+    @media (min-width: 770px) {
+      font-size: 35px;
+      visibility: hidden;
+    }
+  }
+
+  .changingText02 {
+    font-size: 30px;
+    margin-left: 5px;
+    visibility: hidden;
+
+    @media (min-width: 770px) {
+      font-size: 35px;
+      visibility: visible;
+    }
+  }
+}

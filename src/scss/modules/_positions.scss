@@ -1,0 +1,46 @@
+#position-a1 {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block01 {
+    text-align: center;
+    background-color: red;
+    border: solid black 1px;
+    padding: 40px 20px;
+  }
+  .block01_relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+}
+
+#position-a2 {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block02 {
+    background-color: red;
+    border: solid black 1px;
+    text-align: center;
+  }
+
+  .block02_absolute {
+    background-color: yellow;
+    position: relative;
+    width: 30px;
+  }
+
+  .block02_absolute_b {
+    top: 40px;
+    right: -500px;
+  }
+  .block02_absolute_c {
+    top: -25px;
+    left: -1px;
+  }
+}

@@ -1,0 +1,45 @@
+#transition-a1 {
+  button {
+    color: red;
+    margin-left: 0;
+  }
+
+  .button:hover {
+    color: blue;
+    margin-left: 10px;
+  }
+}
+
+#transition-b1 {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  .button {
+    color: red;
+    transition: color 0.5s 0.2s eas-in-out;
+  }
+
+  .button:hover {
+    background-color: purple;
+  }
+}
+
+#transition-c1 {
+  a {
+    text-decoration: none;
+  }
+  .button {
+    color: black;
+    transition: color 0.5s 0.2s eas-in-out;
+  }
+
+  .button:hover {
+    color: purple;
+    background-color: red;
+  }
+}
