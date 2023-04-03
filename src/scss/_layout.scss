@@ -67,6 +67,27 @@
   background-color: orangered;
 }
 
+.box3 {
+  border: black solid 1px;
+  font-size: 20px;
+  padding: 40px 20px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: orangered;
+}
+
+.positionB {
+  position: relative;
+  left: 40px;
+  bottom: 30px;
+}
+
+.positionA {
+  position: relative;
+  left: 60px;
+}
+
 .position-c1 .fixed-element {
   position: absolute;
   bottom: 0;
@@ -79,6 +100,32 @@
   position: relative;
   left: 100px;
   margin-bottom: 50px;
+}
+
+.box4 {
+  border: black solid 1px;
+  font-size: 20px;
+  padding: 20px 20px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: yellow;
+}
+
+.position-b2 .parentA {
+  position: relative;
+}
+
+.position-b2 .childB {
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+}
+
+.position-b2 .childC {
+  position: absolute;
+  left: 80px;
+  top: 70px;
 }
 
 .row + .row {
