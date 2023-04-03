@@ -49,6 +49,11 @@ C => 6
 }
 ```
 
+## Rendu
+
+- Faites une pull request.
+- Avant de quitter le cours, passez chez l'enseignant pour s'assurer de la bonne réception de votre travail.
+
 ## Barème
 
 | **Sujet**                        | **points** |
