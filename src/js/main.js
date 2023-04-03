@@ -1,16 +1,7 @@
-const trigger = document.querySelector('.js-trigger');
-const target = document.querySelector('.js-target');
-const close = document.querySelector('.js-close');
+var button = document.querySelector(".menu-close");
+var menu = document.querySelector(".menu-open");
 
-trigger.addEventListener('click', () => {
-  target.classList.toggle('is-active');
-  trigger.classList.toggle('is-active');
-});
-
-close.addEventListener('click', () => {
-  target.classList.toggle('is-active');
-  trigger.classList.toggle('is-active');
-});
+var menuouvert = function () {};
 
 // const trigger2 = document.querySelector('.js-trigger-2');
 // const target2 = document.querySelector('.js-target-2');

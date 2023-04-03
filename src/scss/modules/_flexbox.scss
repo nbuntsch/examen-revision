@@ -1,0 +1,55 @@
+#flexbox-c1 {
+  .wrapper {
+    display: flex;
+  }
+
+  .container-flex-c1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 137px;
+  }
+}
+
+#flexbox-c2 {
+  .flexc2-box {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+}
+
+.container-flex-c3 {
+}
+
+#flexbox-c3 {
+  .flexc3-box {
+    display: flex;
+  }
+
+  .first-item-c {
+    align-items: flex-start;
+  }
+
+  .last-element {
+    align-self: flex-end;
+  }
+}
+
+.c1-bootstrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.c1-boostrap-element-first {
+  width: 350px;
+}
+
+.c1-boostrap-element {
+  width: 320px;
+}
+
+.tiny-section {
+  width: 130px;
+}
