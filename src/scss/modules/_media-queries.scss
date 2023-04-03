@@ -1,0 +1,33 @@
+#mediaqueries-c1 {
+  .mobile {
+    font-size: 20px;
+  }
+  .desktop {
+    font-size: 30px;
+  }
+  @media (min-width: 768px) {
+    .mobile {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .desktop {
+      display: none;
+    }
+  }
+}
+
+#mediaqueries-c2 {
+  .box {
+    background-color: rgb(161, 219, 235);
+    border: solid blue 1px;
+    padding: 15px;
+  }
+  @media (min-width: 768px) {
+    .container {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+    }
+  }
+}
