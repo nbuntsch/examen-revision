@@ -1,0 +1,15 @@
+.t-text,
+.t-hello {
+  font-size: 24px;
+  color: rgb(255, 81, 110);
+  margin-right: 515px;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.t-text:hover {
+  color: white;
+  background-color: rgb(24, 9, 110);
+}
+.t-text:hover .t-hello {
+  color: rgb(255, 81, 110);
+}
