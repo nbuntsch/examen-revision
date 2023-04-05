@@ -1,6 +1,8 @@
 #flexbox-a3 .box,
 #flexbox-b3 .box,
-#flexbox-c1 .box {
+#flexbox-c1 .box,
+#flexbox-b2 .box,
+#flexbox-b1 .box {
   background: cornflowerblue;
   padding: 15px;
   border: 1px solid black;
@@ -8,7 +10,8 @@
 }
 
 #flexbox-b3 .box,
-#flexbox-c3 .box {
+#flexbox-c3 .box,
+#flexbox-c2 .box {
   width: 185px;
 }
 
@@ -32,4 +35,19 @@
   align-content: flex-end;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+#flexbox-b2 .container {
+  flex-flow: wrap;
+  place-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#flexbox-b1 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
