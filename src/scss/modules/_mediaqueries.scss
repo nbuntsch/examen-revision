@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  #mediaqueries-b1 .sub-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  #mediaqueries-b1 .title {
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 768px) {
+  #mediaqueries-b1 .sub-title {
+    font-size: 15px;
+  }
+  #mediaqueries-b1 .title {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #mediaqueries-b2 .mobile {
+    display: none;
+  }
+  #mediaqueries-b2 .desktop {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  #mediaqueries-b2 .desktop {
+    display: none;
+  }
+}
